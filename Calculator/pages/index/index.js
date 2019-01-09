@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  toCalc: function () {
+    wx.navigateTo({
+      url: '../calc/calc'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

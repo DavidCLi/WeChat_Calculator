@@ -1,0 +1,4 @@
+<!--calc.wxml-->
+<view class="container">
+  <text>Calculator</text>
+</view>
